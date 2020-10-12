@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+    <title>Formulario web basico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="forma">
+    <h1 > CBTIS 229</h1>
+    <hr>
+    <form action="#">
+        <fieldset >
+            <legend>Entradas de usuario</legend>
+            <div>
+                <label class="forms-register" for="usuario">Nombre:</label>
+                <input id="usuario" type="text" name="usuario"
+                    size="20" maxsize="30" placeholder=" Escriba su nombre ">
+            </div><br> 
+             <div>
+                <label for="Apellido">Apellido Paterno:</label>
+                <input id="Apellido" type="text" name="Apellido"placeholder=" Escriba su apellido ">
+               
+            </div><br>
+
+            <div>
+                <label for="Apellido">Apellido Materno:</label>
+                <input id="Apellido" type="text" name="Apellido"placeholder=" Escriba su apellido ">
+                
+            </div><br>
+        
+            <div>
+                <label   for="email">Direccion email:</label>
+                <input id="email" type="text" name="email"
+                placeholder=" Email">
+            </div><br>
+            <div>
+                <label class="forms-register" for="usuario">Numero de telefono</label>
+                <input  type="number" size="20" maxsize="30" placeholder=" telefono ">
+            </div><br>
+            
+            <div >Turno  <br> 
+                <input type="radio" id="matutino" name="select" value="matutino">
+                <label for= "matutino" >Matutino</label><br>
+                <input type="radio" id="Vespertino" name="select" value="Vespertino">
+                <label for="Vespertino">Vespertino</label><br>
+            </div><br>
+            <div>
+                <label class="Titulo" for="ciudad">Especialidad:</label>
+                <select name="ciudad">
+                    <option value="TE">Electronica</option>
+                    <option value="VA">Programacion</option>
+                    <option value="BA">Logistica</option>
+                    <option value="M">Contabilidad</option>
+                    <option value="M">Alimentod</option>
+                    <option value="" selected="selected">Selecciona tu Especialidad...</option>
+                </select>
+            </div><br>
+            <div>
+                <label  for="ciudad">Municipio</label >
+                <select name="ciudad">
+                    <option value="ME">Ajalpan</option>
+                    <option value="VA">Altepexi</option>
+                    <option value="BA">Amozoc</option>
+                    <option value="M">Chapulco</option>
+                    <option value="M">Puebla</option>
+                    <option value="M">San Gabriel Chilac</option>         
+                    <option value="" selected="selected">Seleccionar</option>
+                </select>
+                
+            </div><br>
+            <div> Taller <br>
+                <input type="checkbox" id="deportes" name="aficiones" value="deportes">
+                <label for="deportes">Deportes</label><br>
+                <input type="checkbox" id="Libros" name="aficiones" value="Libros">
+                <label for="Libros">Actuacion</label><br>
+                <input type="checkbox" id="musica" name="aficiones" value="musica">
+                <label for="musica">Musica</label><br>
+                <input type="checkbox" id="deportes" name="aficiones" value="deportes">
+                <label for="deportes">Escolta</label><br>
+                <input type="checkbox" id="deportes" name="aficiones" value="deportes">
+                <label for="deportes">Proteccion Civil</label><br>
+            </div><br>
+            <div >Sexo:  <br> 
+                <input type="radio" id="masculino" name="sexo" value="masculino">
+                <label for="masculino">Masculino</label><br>
+                <input type="radio" id="femenino" name="sexo" value="femenino">
+                <label for="femenino">Femenino</label><br>
+            </div><br>
+
+            <div> <br>
+                <input class="botons" type="submit" name="submit" value="Enviar informacion">
+                <input class="botons" type="reset" name="reset" value="Limpiar formulario">
+            </div><br>
+        </fieldset>
+    </form>
+</body>
+</html>

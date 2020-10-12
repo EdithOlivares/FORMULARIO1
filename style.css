@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(24, 109, 143);
+
+}   
+
+.form-register {
+    background: #466d94;
+    margin: 0px;
+    margin-top: 0px;
+    border-radius: 0px;
+    font-family:  "arial" ;
+    color: rgb(0, 0, 0);
+
+}
+.forma{
+
+    background: #1f3e6b;
+    
+    margin-top: auto;
+    font-family:  "arial" ;
+    color: rgb(241, 236, 236);
+}
